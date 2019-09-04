@@ -30,4 +30,24 @@ void control(){
  String colorToPrint=color??"Free Color";
  print(colorToPrint);
 
+
+//switch statements
+String grade='A';
+switch (grade) {
+  case 'A' :
+    print("You have excellent pass");
+    break;
+
+  case 'B' :
+    print("You have pass");
+    break;
+
+  case 'C' :
+    print("You have normal pass");
+    break;
+
+  default:
+  print("You have to work hard");
+
+}
 }
