@@ -64,6 +64,23 @@ try{
   finally{
     print("Always excecute finally clause");
   }
-
-
+  try{
+    depositmoney(-100);
+  }
+  catch(e){
+    print(e.errormsg());
+  }
 }
+
+  class depositException implements  Exception{
+    String errormsg(){
+      return("You cannot enter amount less than 0");
+    }
+  }
+  void depositmoney(int amount){
+    if(amount<0){
+      throw new depositException();
+    }
+  }
+
+
