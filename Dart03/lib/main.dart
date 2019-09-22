@@ -42,6 +42,10 @@ void main(){
    van1.speed(50, 75);
   
 
+  //inheritance with constructors
+  var dog=Dog();
+  var dog2=Dog.mydog();
+
 
 }
 class Student{

@@ -13,3 +13,21 @@ class bike extends vehicle{
   String owner;
 
 }
+class Animal{
+  String color;
+  Animal(int c){
+    print("Animal class default constructor");
+  }
+  Animal.myAnimal(int q){
+    print("myAnimal named constructor");
+  }
+}
+class Dog extends Animal{
+  String breed;
+  Dog():super(4){
+    print("Dog class default constructor");
+  }
+  Dog.mydog():super.myAnimal(5){
+    print("Dog class default constructor");
+  }
+}
