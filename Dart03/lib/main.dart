@@ -1,6 +1,8 @@
 
 import 'constructor.dart';
 import 'getter&setter.dart';
+import 'inheritance.dart';
+
 
 
 void main(){
@@ -32,6 +34,14 @@ void main(){
 
    one1.percentage=200;
    print(one1.percentage);
+
+   //inheritance
+   var van1=new van();
+   van1.name="cheri QQ";
+   print(van1.name);
+   van1.speed(50, 75);
+  
+
 
 }
 class Student{
