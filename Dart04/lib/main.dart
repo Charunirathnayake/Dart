@@ -61,4 +61,15 @@ void main(){
   }
   friuts.update("Apple",(value)=>"Green");
   friuts.remove("mango");
+
+  print("collable class");
+  var personOne=new person();
+  personOne(45,"Perter");
+
+}
+class person{
+  call(int age,String name){
+    print("This person name is $name and age is $age");
+  }
+  
 }
