@@ -30,4 +30,17 @@ void main(){
   for(int i=0;i<numbers.length;i++){
     print(numbers[i]);
   }
+
+
+  print("set declaration");
+  Set<String>countries=Set.from(["USA","China","Russia","Oman"]);
+  countries.add("Quvet");
+  countries.add("Dubai");
+  countries.add("India");
+  countries.remove("Quvet");
+  numbers.contains("Dubai");
+  numbers.length;
+  for(String element in countries){
+    print(element);
+  }
 }
