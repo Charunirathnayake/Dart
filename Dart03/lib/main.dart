@@ -2,6 +2,7 @@
 import 'constructor.dart';
 import 'getter&setter.dart';
 import 'inheritance.dart';
+import 'staticvariables&methods.dart';
 
 
 
@@ -45,7 +46,9 @@ void main(){
   //inheritance with constructors
   var dog=Dog();
   var dog2=Dog.mydog();
-
+// static methods and variables
+print(Circle.pi);
+Circle.calculateArea(45);
 
 }
 class Student{
