@@ -50,6 +50,27 @@ void main(){
 print(Circle.pi);
 Circle.calculateArea(45);
 
+
+//lambda function
+  Function addtwonumbers=(int l,int m){
+    var sum=l+m;
+    print("$sum");
+  };
+
+var multiplebyfour=(int number){
+  return number*4;
+};
+  Function addnumbers=(int number1,int number2)=>print(number1+number2);
+  var multiple=(int number3)=>number3*4;
+
+
+//call lambda functon
+addtwonumbers(52,4);
+print(multiplebyfour(8));
+
+addnumbers(25,45);
+print(multiple(5));
+
 }
 class Student{
   int id;
