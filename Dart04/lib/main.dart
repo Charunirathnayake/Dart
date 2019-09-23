@@ -43,4 +43,22 @@ void main(){
   for(String element in countries){
     print(element);
   }
+
+  print("Map and hashmap");
+  Map<String,String>friuts=Map();
+  friuts["Apple"]="Red";
+  friuts["Papaya"]="yellow";
+  friuts["Guava"]="Green";
+  friuts["Mango"]="Yellow";
+  friuts["Avacado"]="light green";
+  friuts["Grapes"]="Purple";
+
+  for(String key in friuts.keys){
+    print(key);
+  }
+  for(String value in friuts.values){
+    print(value);
+  }
+  friuts.update("Apple",(value)=>"Green");
+  friuts.remove("mango");
 }
